@@ -245,11 +245,11 @@ class EstructuraDeDatos{
                 break;
 
                 case 5:
-                    System.out.println("¿Cuantos elementos vas a ingresar?");
+                    System.out.println("¿Cuántos productos comprarás?");
                     total = entrada.nextInt();
                     for(int i = 1; i <= total; i++){
                         System.out.println("ingresa el primer producto");
-                        costo = entrada.nextFloat();
+                        costo = entrada.nextInt();
                         System.out.println("ingresa la cantidad del producto");
                         cantidad = entrada.nextInt();
                         resultado = costo * cantidad;
