@@ -245,7 +245,7 @@ class EstructuraDeDatos{
                 break;
 
                 case 5:
-                    System.out.println("¿Cuántos productos comprarás?");
+                    System.out.println("¿Cuántos productos?");
                     total = entrada.nextInt();
                     for(int i = 1; i <= total; i++){
                         System.out.println("ingresa el primer producto");
